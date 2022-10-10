@@ -35,14 +35,32 @@ body {
     border: none;
     padding: 15px 0px;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 25px;
-    transition: border-color .3s ease-in-out;
 }
 #login-form input::placeholder {
     color: rgba(0, 0, 0, 0.4);
 }
+#login-form input:not([type="submit"]) {
+    transition: border-color .3s ease-in-out;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+} /*!순서 중요 state 상태보다 나중에 오면 적용이 안됨*/
+
 #login-form input:focus {
     border-color: var(--yellow);
     /* *input을 클릭했을때 테두리를 안보이게 함*/
+}
+
+#login-form input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+    /*cursor은 마우스 포인터를 바꿔주는 역할*/
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
 }
