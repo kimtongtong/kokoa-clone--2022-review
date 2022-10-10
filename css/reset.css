@@ -41,3 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input:focus {
+	outline: none;
+	/**로그인 폼에서 focus 할때 outline 제거 */
+}
