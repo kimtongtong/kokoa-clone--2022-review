@@ -45,3 +45,7 @@ input:focus {
 	outline: none;
 	/**로그인 폼에서 focus 할때 outline 제거 */
 }
+a {
+	color: inherit;
+	text-decoration: none;
+}
