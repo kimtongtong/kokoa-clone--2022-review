@@ -4,14 +4,18 @@
 @import "variables.css";
 
 
-
-@import "components/nav-bar.css";
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
 /*components*/
 @import "screens/login.css";
 /*screens*/
 
 body {
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    /* height: 1000vh; */
+    padding-top: 16px;
+    /*!nav-bar 와 header의 겹침 문제 해결*/
 }
 
