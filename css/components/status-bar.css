@@ -6,7 +6,7 @@
     top: 0;
     width: 100%;
     font-weight: 600;
-    padding-top: 3px;
+    padding: 3px 0px;
 }
 .status-bar__column {
     width: 33%;
