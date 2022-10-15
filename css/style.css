@@ -21,4 +21,7 @@ body {
     /*!nav-bar 와 header의 겹침 문제 해결*/
     color: #2e363e;
 }
-
+.main-screen {
+    padding: 0px var(--horizontal-space);
+    /*스크린 배경 통일*/
+}
