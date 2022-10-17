@@ -18,16 +18,6 @@
     /* *notification을 정렬하기 위해 position 지정*/
 }
 .nav-notification {
-    background-color: tomato;
-    width: 25px;
-    height: 25px;
-    border-radius: 12.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-    font-size: 12px;
     position: absolute;
     left: 18px;
     bottom: 18px;
