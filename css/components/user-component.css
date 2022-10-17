@@ -48,3 +48,6 @@
     display: block;
     margin-bottom: 10px;
 }
+.user-component__margin {
+    margin-bottom: 10px;
+}
