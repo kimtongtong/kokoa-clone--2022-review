@@ -1,12 +1,8 @@
+
 .icon-container {
     display: flex;
     flex-direction: column;
 }
-.icon-container:last-child .icon-row__icon:nth-child(3),
-.icon-container:last-child .icon-row__icon:nth-child(4) {
-    opacity: 0;
-}
-
 .icon-row {
     display: flex;
     justify-content: space-between;
@@ -22,4 +18,7 @@
 }
 .icon-row__icon span {
     margin-top: 18px;
+}
+.box2 .icon-row__icon:nth-child(1n + 3) {
+    opacity: 0;
 }
